@@ -23,5 +23,3 @@ Ele surgiu da necessidade de se diminuir a complexidade de aplicações JavaEE, 
 -  Spring Data
 - Spring Cloud
 - Spring Security
-
-![spirng](C:\Users\aline\OneDrive\Área de Trabalho\spirng.png)
