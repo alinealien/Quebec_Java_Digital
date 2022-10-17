@@ -10,7 +10,7 @@ public class HelloController {
 
     @GetMapping
     public String hello(){
-        return "Olá, Québec Java Digital e Digital Innovation One. Obrigada pela oportunidade de aprender sempre mais - JAVA";
+        return "Olá, Québec Java Digital e Digital Innovation One. Obrigada pela oportunidade de aprender sempre mais.";
 
         //O que fazer para que o Spring considere isso como um endpoint REST?
         //Anotar a classe como @RestController ele vai ler determinados metodos que tem determinadas anotações
