@@ -5,12 +5,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
+@RequestMapping("/")
 public class HelloController {
 
     @GetMapping
-    @RequestMapping("/")
     public String hello(){
-        return "Olá, Québec Java Digital e Digital Innovation One. Obrigada pela oportunidade de aprender sempre mais - Teste DevTools - JAVA";
+        return "Olá, Québec Java Digital e Digital Innovation One. Obrigada pela oportunidade de aprender sempre mais - JAVA";
 
         //O que fazer para que o Spring considere isso como um endpoint REST?
         //Anotar a classe como @RestController ele vai ler determinados metodos que tem determinadas anotações
