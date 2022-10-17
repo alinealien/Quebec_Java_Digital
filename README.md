@@ -8,6 +8,8 @@
 
 Neste projeto você terá o desafio de desenvolver um conjunto de API’s  utilizando Spring Boot para controlar um estacionamento de veículos.  Serão controlados a entrada, saída e valor a ser cobrado do cliente. Iremos aplicar todas as boas práticas de desenvolvimento de API’s incluindo segurança com Spring Security e acesso a banco de dados PostgreSQL. Serão realizados testes e relatórios de cobertura de testes. Após finalizarmos a aplicação e termos enviado para o Github, vamos fazer o deploy na cloud do Heroku a fim de disponibilizar nossa API para a Internet.
 
+
+
 ***Aula I - Apresentação***
 
 **Spring Boot**
@@ -21,5 +23,34 @@ Ele surgiu da necessidade de se diminuir a complexidade de aplicações JavaEE, 
 **Módulos utilizados no projeto e curso**
 
 -  Spring Data
+
 - Spring Cloud
+
 - Spring Security
+
+  ​
+
+***Aula II - Pom.xml e Dependência***
+
+Foi apresentado a estrutura do pom.xml e foram adicionados dependencias ao nosso projeto:
+
+- Spring Boot Dev Tools
+
+  | Dependencia Adicionada ao pom.xml        |
+  | ---------------------------------------- |
+  | <dependency>                                                                                  <groupId>org.springframework.boot</groupId>                                                             <artifactId>spring-boot-devtools</artifactId>                                                                 <scope>runtime</scope>                                                                                                  <optional>true</optional>                                                                                                                 </dependency> |
+
+
+
+***Aula III - Outras formas de iniciar o projeto e Github***
+
+**Podemos startar via console:**
+
+Teremos que acessar o local do nosso projeto via cmd (sugiro pesquisar comando cmd). 
+
+
+
+**Podemos startar por fora(Geralmente em produção):**
+
+Empacotamos em um docker e roda ele. 
+
